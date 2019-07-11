@@ -11,6 +11,9 @@
     "litmus": "gulp litmus --production",
     "mail": "gulp mail --production"
   },
+  "engines": {
+    "node": "10.16.0"
+  },
   "author": "ZURB <foundation@zurb.com>",
   "license": "MIT",
   "dependencies": {
