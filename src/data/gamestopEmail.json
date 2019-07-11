@@ -1,0 +1,20 @@
+{
+  "dealOne": {
+    "image": "/assets/img/gamestop-files/turtlebeach.jpg",
+    "title": "Save $30",
+    "description": "on turtle beach 700 premium wireless surround sound gaming headset",
+    "link": "#"
+  },
+  "dealTwo": {
+    "image": "/assets/img/gamestop-files/shirts.jpg",
+    "title": "All T-shirts only $10",
+    "description": "Break out new styles without breaking the bank",
+    "link": "#"
+  },
+  "dealThree": {
+    "image": "/assets/img/gamestop-files/toys.jpg",
+    "title": "3 For $25",
+    "description": "all $11.99 or under POP! Vinyl",
+    "link": "#"
+  }
+}

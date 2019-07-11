@@ -1,0 +1,192 @@
+---
+layout: gamestop
+subject: Summer Sale
+---
+
+<container>
+  <row class="summer-deals">
+    <row class="summer-banner collapse">
+      <columns>
+        <img src="{{ root }}/assets/img/gamestop-files/summersale.jpg" alt="" />
+      </columns>
+    </row>
+
+    <row class="summer-games">
+      <columns large="3" small="6">
+        <img
+          class="small-float-center float-center"
+          src="assets/img/gamestop-files/division.jpg"
+          alt=""
+        />
+        <h2>Only $19.99</h2>
+        <p>Reg. $49.99</p>
+        <a href="#"><p>Buy Now!</p></a>
+      </columns>
+
+      <columns large="3" small="6">
+        <img
+          class="small-float-center float-center"
+          src="assets/img/gamestop-files/daysgone.jpg"
+          alt=""
+        />
+        <h2>Only $39.99</h2>
+        <p>Reg. $49.99</p>
+        <a href="#"><p>Buy Now!</p></a>
+      </columns>
+
+      <columns large="3" small="6">
+        <img
+          class="small-float-center float-center"
+          src="assets/img/gamestop-files/odyssey.jpg"
+          alt=""
+        />
+        <h2>Only $19.99</h2>
+        <p>Reg. $49.99</p>
+        <a href="#"><p>Buy Now!</p></a>
+      </columns>
+
+      <columns large="3" small="6">
+        <img
+          class="small-float-center float-center"
+          src="assets/img/gamestop-files/kingdom.jpg"
+          alt=""
+        />
+        <h2>Only $19.99</h2>
+        <p>Reg. $49.99</p>
+        <a href="#"><p>Buy Now!</p></a>
+      </columns>
+    </row>
+
+    <row class="summer-bottom">
+      <columns>
+        <h1>Our Lowest Prices Yet</h1>
+        <p>on the games you want this summer</p>
+        <a href="#" class="button">Shop All</a>
+      </columns>
+    </row>
+
+    <row class="deal-one collapse">
+      <columns large="6" small="12" valign="middle">
+        <center>
+          <img
+            src="{{ gamestopEmail.dealOne.image }}"
+            alt=""
+            class=".small-float-center"
+          />
+        </center>
+      </columns>
+      <columns large="6" small="12" valign="middle" class="deal-title">
+        <h1>{{ gamestopEmail.dealOne.title }}</h1>
+        <p>
+          {{ gamestopEmail.dealOne.description }}
+        </p>
+        <a href="{{ gamestopEmail.dealOne.link }}" class="button">Buy Now</a>
+      </columns>
+    </row>
+
+    <row class="deal-two collapse show-for-large">
+      <columns large="6" small="12" valign="middle" class="deal-title">
+        <h1>{{ gamestopEmail.dealTwo.title }}</h1>
+        <p>
+          {{ gamestopEmail.dealTwo.description }}
+        </p>
+        <a href="{{ gamestopEmail.dealTwo.link }}" class="button">Buy Now</a>
+      </columns>
+      <columns large="6" small="12" valign="middle">
+        <center>
+          <img
+            src="{{ gamestopEmail.dealTwo.image }}"
+            alt=""
+            class=".small-float-center"
+          />
+        </center>
+      </columns>
+    </row>
+
+    <row class="deal-two collapse hide-for-large">
+      <columns large="6" small="12" valign="middle">
+        <center>
+          <img
+            src="{{ gamestopEmail.dealTwo.image }}"
+            alt=""
+            class=".small-float-center"
+          />
+        </center>
+      </columns>
+      <columns large="6" small="12" valign="middle" class="deal-title">
+        <h1>{{ gamestopEmail.dealTwo.title }}</h1>
+        <p>
+          {{ gamestopEmail.dealTwo.description }}
+        </p>
+        <a href="{{ gamestopEmail.dealTwo.link }}" class="button">Buy Now</a>
+      </columns>
+    </row>
+
+    <row class="deal-three collapse">
+      <columns large="6" small="12" valign="middle">
+        <center>
+          <img
+            src="{{ gamestopEmail.dealThree.image }}"
+            alt=""
+            class=".small-float-center"
+          />
+        </center>
+      </columns>
+      <columns large="6" small="12" valign="middle" class="deal-title">
+        <h1>{{ gamestopEmail.dealThree.title }}</h1>
+        <p>
+          {{ gamestopEmail.dealThree.description }}
+        </p>
+        <a href="{{ gamestopEmail.dealThree.link }}" class="button">Buy Now</a>
+      </columns>
+    </row>
+
+    <row class="last-deal ">
+      <columns>
+        <row class="title collapse">
+          <columns>
+            <h1>
+              Get a new <br />
+              playstation 4 <br />
+              for as low as...
+            </h1>
+            <img src="/assets/img/gamestop-files/ps4.jpg" alt="" />
+          </columns>
+        </row>
+
+        <row class="trade">
+          <h1>When you trade the following</h1>
+          <columns large="6" small="12">
+            <p>Playstation 4 Pro xbox one or iphone 8</p>
+            <img src="/assets/img/gamestop-files/275.jpg" alt="" />
+          </columns>
+          <columns large="6" small="12">
+            <p>Playstation 4 Pro xbox one or iphone 8</p>
+            <img src="/assets/img/gamestop-files/275.jpg" alt="" />
+          </columns>
+        </row>
+
+        <row class="credit">
+          <columns large="6" small="12">
+            <p>Playstation 4 Pro xbox one or iphone 8</p>
+            <img src="/assets/img/gamestop-files/275.jpg" alt="" />
+          </columns>
+          <columns large="6" small="12">
+            <p>Playstation 4 Pro xbox one or iphone 8</p>
+            <img src="/assets/img/gamestop-files/275.jpg" alt="" />
+          </columns>
+          <row class="bottom-title">
+            <h1>
+              Toward your new <br />
+              playstation 4 <br />
+              purchase
+            </h1>
+            <a href="#" class="button">Find a store</a>
+          </row>
+        </row>
+      </columns>
+    </row>
+
+    {{> footer}}
+  </row>
+</container>
