@@ -37,6 +37,14 @@ gulp.task("mail", gulp.series("build", creds, aws, mail));
 // Build emails, then zip
 gulp.task("zip", gulp.series("build", zip));
 
+gulp.task('serveprod', function() {
+  connect.server({
+    root: [/src/pages/index.html],
+    port: process.env.PORT || 5000, // localhost:5000
+    livereload: false
+  });
+});
+
 // Delete the "dist" folder
 // This happens every time a build starts
 function clean(done) {
